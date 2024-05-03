@@ -1,0 +1,62 @@
+.timer{
+    display: flex;
+   
+}
+
+.timerchild{
+    margin:auto;
+    background-color: rgb(90, 18, 112);
+}
+body{
+    background: rgb(174,72,255);
+    background: linear-gradient(27deg, rgba(174,72,255,1) 0%, rgba(47,192,255,1) 100%); 
+ }
+
+.time{
+    display: flex;
+    margin: auto;
+}
+
+.time-children{
+    height: 70px;
+    margin: auto;
+    width: 70px;
+    background: rgb(174,72,255);
+    background: linear-gradient(27deg, rgba(174,72,255,1) 0%, rgba(47,192,255,1) 100%); 
+    display: block;
+    display: flex; /* Add flex display */
+    flex-direction: column; /* Set flex-direction to column */
+    justify-content: center; /* Align items vertically */
+    align-items: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.second{
+    color: #ae48ff;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+ p{
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ .date-time{
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 5px;
+    border-color: azure;
+    margin: auto;
+ }
+
+ .time-button{
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 3px;
+    border-color: azure;
+    margin: 20px;
+
+ }
